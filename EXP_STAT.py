@@ -1,5 +1,3 @@
-import pytest
-
 lvl ={
     0: 0,
     1: 100,
