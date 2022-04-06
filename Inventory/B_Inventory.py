@@ -45,6 +45,7 @@ class B_Inventory(dict):
         if my_item:
             my_item -= item_['wear']
             return self
+        
         if 'inventory' in item_:
             del item_['inventory']
         del self[item_['guid']]
@@ -62,12 +63,7 @@ class B_Inventory(dict):
         if wear is None:
             Whom.inventory += item_
         elif item_['stack']:
-            # item_2 = item_.my_copy_D_invt()
-            item_2 = item_
-            Whom_item = item_2 - wear
-            # i = Whom_item.my_copy_D_invt()
-            i = Whom_item
-            # self -= i
+            Whom_item = item_ - wear
             Whom.inventory += Whom_item
         else:
             raise NotImplementedError('передано stack=False, wear=')
@@ -114,12 +110,12 @@ class Item(dict):
                     self.__del_invt_A_item()
                     return self
                 elif self['wear'] > 0:
-                    item_ = self.my_copy_D_invt()
-                    item_['wear'] = other
+                    item_ = self.my_copy_D_invt(wear=other)
                     return item_
                 else:
                     raise NotImplementedError("wear -= int; wear < 0")
 
+    """? Можно ли как-то красиво и понятно реализовать get_size & get_cost  ?"""
     def get_size(self, wear=None):
         if self['stack']:
             if wear:
@@ -136,16 +132,26 @@ class Item(dict):
         else:
             return self['cost']
 
-    def copy(self):
+    def copy(self, /, wear=None):
         item_ = copy.copy(self)
         item_['guid'] = uuid.uuid4()
+        if wear:
+            item_['wear'] = wear
         return item_
 
-    def my_copy_D_invt(self):
-        item_ = self.copy()
+    def my_copy_D_invt(self, /, **kwargs):
+        item_ = self.copy(**kwargs)
         if 'inventory' in item_:del item_['inventory']
         return item_
 
+
+    """ Use logic items """
+
+    def use(self):
+        self['inUsing'] = True
+
+    def unuse(self):
+        self['inUsing'] = False
 
 """ TEST """
 
@@ -300,3 +306,4 @@ def test():
 
 if __name__ == '__main__':
     test()
+    print('test success')
