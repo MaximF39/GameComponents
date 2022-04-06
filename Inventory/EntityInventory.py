@@ -57,7 +57,6 @@ def test():
 
     p1.inventory.send_item(p2, guid=i1['guid'], wear=40)
 
-    print(p1.inventory.hold)
     assert p1.inventory.hold == 250
     assert p2.inventory.hold == 200
 

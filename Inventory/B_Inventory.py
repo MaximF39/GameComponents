@@ -45,7 +45,7 @@ class B_Inventory(dict):
         if my_item:
             my_item -= item_['wear']
             return self
-        
+
         if 'inventory' in item_:
             del item_['inventory']
         del self[item_['guid']]
@@ -85,7 +85,10 @@ class Item(dict):
                 raise AttributeError(f"{self.__class__.__name__} hasn't attribute %s" % need)
         super().__init__(seq, **kwargs)
 
-    def __iadd__(self, item_: "Item" = None):
+    def __iadd__(self, item_: "Item"):
+        return self.__add__(item_)
+
+    def __add__(self, item_):
         if isinstance(item_, Item):
             self['wear'] += item_['wear']
             return self
@@ -94,56 +97,50 @@ class Item(dict):
             self['wear'] += item_
             return self
 
-    def __del_invt_A_item(self):
-        if "inventory" in self:
-            del self['inventory'][self['guid']]
-            del self['inventory']
-
-    def __sub__(self, other: int):
+    def __isub__(self, other):
         if isinstance(other, int):
             self['wear'] -= other
             if not self['stack']:
                 return self
             else:
                 if self['wear'] == 0:
-                    self['wear'] = other
-                    self.__del_invt_A_item()
+                    self.__del_invt_A_item(wear=other)
                     return self
                 elif self['wear'] > 0:
-                    item_ = self.my_copy_D_invt(wear=other)
-                    return item_
+                    return self.my_copy_D_invt()
                 else:
                     raise NotImplementedError("wear -= int; wear < 0")
 
-    """? Можно ли как-то красиво и понятно реализовать get_size & get_cost  ?"""
+    def __sub__(self, other: int):
+        self.__isub__(other)
+        if self['stack']:   return self.my_copy_D_invt(wear=other)
+        return self
+
     def get_size(self, wear=None):
-        if self['stack']:
-            if wear:
-                return self['size'] * wear
-            return self['size'] * self['wear']
-        else:
-            return self['size']
+        if self['stack']:   return self['size'] * (wear or self['wear'])
+        else:               return self['size']
 
     def get_cost(self, wear=None):
-        if self['stack']:
-            if wear:
-                return self['cost'] * wear
-            return self['cost'] * self['wear']
-        else:
-            return self['cost']
+        if self['stack']:   return self['cost'] * (wear or self['wear'])
+        else:               return self['cost']
 
     def copy(self, /, wear=None):
         item_ = copy.copy(self)
         item_['guid'] = uuid.uuid4()
-        if wear:
-            item_['wear'] = wear
+        if wear:    item_['wear'] = wear
         return item_
 
     def my_copy_D_invt(self, /, **kwargs):
         item_ = self.copy(**kwargs)
-        if 'inventory' in item_:del item_['inventory']
+        if 'inventory' in item_:    del item_['inventory']
         return item_
 
+    def __del_invt_A_item(self, /, wear=None):
+        if "inventory" in self:
+            del self['inventory'][self['guid']]
+            del self['inventory']
+        if wear:
+            self['wear'] = wear
 
     """ Use logic items """
 
@@ -155,8 +152,46 @@ class Item(dict):
 
 """ TEST """
 
+def test_item():
 
-def test():
+    def test_stack_F():
+        i1 = Item(
+            {"guid": uuid.uuid4(), 'classNumber': 10, "stack": False, "wear": 90, "inUsing": False, "satisfying": False, 'size':0.1})
+
+        i1 += 100
+        assert i1['wear'] == 190
+        i1 -= 100
+        assert i1['wear'] == 90
+        i1 + 100
+        assert i1['wear'] == 190
+        i1 - 100
+        assert i1['wear'] == 90
+
+    def test_stack_T():
+        i1 = Item(
+            {"guid": uuid.uuid4(), 'classNumber': 10, "stack": True, "wear": 90, "inUsing": False, "satisfying": False,
+             'size': 0.1})
+
+        i1 += 100
+        assert i1['wear'] == 190
+
+        i1 -= 100
+        assert i1['wear'] == 90
+        i1 + 100
+        assert i1['wear'] == 190
+        i1 - 100
+        assert i1['wear'] == 90
+
+        i2 = i1 - 30
+        assert i2['wear'] == 30
+        assert i1['wear'] == 60
+
+        assert i1['guid'] != i2['guid']
+
+    test_stack_F()
+    test_stack_T()
+
+def test_invt():
     class Owner:
         def __init__(self):
             self.inventory = B_Inventory(self)
@@ -299,11 +334,13 @@ def test():
     i1 = Item(
         {"guid": uuid.uuid4(), 'classNumber': 10, "stack": False, "wear": 90, "inUsing": False, "satisfying": False, 'size':0.1})
     p1.inventory += i1 - 30
+
     assert p1.inventory[i1['guid']]['wear'] == 60
 
-    print("Good end test! SUCCESSFUL")
+    print("Good end test_invt! SUCCESSFUL")
 
 
 if __name__ == '__main__':
-    test()
-    print('test success')
+    test_item()
+    test_invt()
+    print('test_invt success')
