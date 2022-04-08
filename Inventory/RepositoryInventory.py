@@ -1,9 +1,7 @@
-import uuid
-
-from Inventory.B_Inventory import B_Inventory, Item
+from Inventory._Inventory import _Inventory
 
 
-class RepositoryInventory(B_Inventory):
+class RepositoryInventory(_Inventory):
 
     def send_item(self, Whom, guid=None, wear=None, item_=None):
         item_ = self._get_item(guid, item_)

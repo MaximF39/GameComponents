@@ -1,0 +1,3814 @@
+﻿[
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 4,
+    "shields": 23,
+    "max_energy": 210,
+    "max_health": 870,
+    "cpu": 1150,
+    "radar": 1800,
+    "max_speed": 80,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 1,
+    "size": 700,
+    "cost": 30000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 2,
+    "armor": 1,
+    "shields": 13,
+    "max_energy": 170,
+    "max_health": 600,
+    "cpu": 450,
+    "radar": 1600,
+    "max_speed": 75,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 2,
+    "size": 1500,
+    "cost": 10000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 4,
+    "armor": 2,
+    "shields": 23,
+    "max_energy": 430,
+    "max_health": 930,
+    "cpu": 1400,
+    "radar": 2200,
+    "max_speed": 75,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 3,
+    "size": 850,
+    "cost": 55000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 25,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 4,
+    "size": 1150,
+    "cost": 81000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 2,
+    "armor": 1,
+    "shields": 9,
+    "max_energy": 150,
+    "max_health": 530,
+    "cpu": 350,
+    "radar": 1500,
+    "max_speed": 85,
+    "restrictions": [],
+    "features": [],
+    "class_number": 10,
+    "size": 530,
+    "cost": 5000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 2,
+    "shields": 19,
+    "max_energy": 200,
+    "max_health": 650,
+    "cpu": 700,
+    "radar": 2000,
+    "max_speed": 90,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 11,
+    "size": 650,
+    "cost": 14000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 6,
+    "shields": 30,
+    "max_energy": 400,
+    "max_health": 1600,
+    "cpu": 2500,
+    "radar": 2100,
+    "max_speed": 65,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 12,
+    "size": 1300,
+    "cost": 160000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 4,
+    "shields": 23,
+    "max_energy": 210,
+    "max_health": 850,
+    "cpu": 1150,
+    "radar": 1800,
+    "max_speed": 10,
+    "restrictions": [],
+    "features": [],
+    "class_number": 13,
+    "size": 700,
+    "cost": 30000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 5,
+    "armor": 8,
+    "shields": 35,
+    "max_energy": 500,
+    "max_health": 1800,
+    "cpu": 3000,
+    "radar": 2100,
+    "max_speed": 60,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 14,
+    "size": 1450,
+    "cost": 395000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 26,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      }
+    ],
+    "class_number": 15,
+    "size": 720,
+    "cost": 85000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 25,
+    "max_energy": 350,
+    "max_health": 1600,
+    "cpu": 2460,
+    "radar": 2200,
+    "max_speed": 90,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 8
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      },
+      {
+        "type": 5,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 16,
+    "size": 900,
+    "cost": 170000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 25,
+    "shields": 40,
+    "max_energy": 350,
+    "max_health": 1800,
+    "cpu": 2800,
+    "radar": 2200,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 3
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 17,
+    "size": 1180,
+    "cost": 170000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 15,
+    "shields": 35,
+    "max_energy": 400,
+    "max_health": 2000,
+    "cpu": 3500,
+    "radar": 2300,
+    "max_speed": 80,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 9
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 12
+      }
+    ],
+    "class_number": 18,
+    "size": 1200,
+    "cost": 280000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 14,
+    "shields": 28,
+    "max_energy": 400,
+    "max_health": 2200,
+    "cpu": 3600,
+    "radar": 2400,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 9
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 19,
+    "size": 1400,
+    "cost": 4000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 15,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2400,
+    "radar": 2300,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      },
+      {
+        "type": 3,
+        "value_type": 0,
+        "value": 33
+      }
+    ],
+    "class_number": 20,
+    "size": 900,
+    "cost": 195000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 21,
+    "shields": 30,
+    "max_energy": 550,
+    "max_health": 8000,
+    "cpu": 800,
+    "radar": 2330,
+    "max_speed": 40,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 11
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 3
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 21,
+    "size": 4000,
+    "cost": 8000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 20,
+    "shields": 20,
+    "max_energy": 700,
+    "max_health": 4500,
+    "cpu": 4700,
+    "radar": 1900,
+    "max_speed": 55,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 22,
+    "size": 2000,
+    "cost": 1480000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 13,
+    "shields": 33,
+    "max_energy": 420,
+    "max_health": 1700,
+    "cpu": 2700,
+    "radar": 2200,
+    "max_speed": 68,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 24,
+    "size": 1300,
+    "cost": 250000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 13,
+    "shields": 33,
+    "max_energy": 470,
+    "max_health": 1700,
+    "cpu": 2850,
+    "radar": 2200,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 5
+      }
+    ],
+    "features": [],
+    "class_number": 25,
+    "size": 1300,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 5,
+    "armor": 15,
+    "shields": 36,
+    "max_energy": 470,
+    "max_health": 1750,
+    "cpu": 2750,
+    "radar": 2300,
+    "max_speed": 68,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 6
+      }
+    ],
+    "features": [],
+    "class_number": 26,
+    "size": 1300,
+    "cost": 350000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 5,
+    "device_slots": 5,
+    "armor": 12,
+    "shields": 5,
+    "max_energy": 550,
+    "max_health": 1800,
+    "cpu": 5000,
+    "radar": 2200,
+    "max_speed": 66,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 27,
+    "size": 1550,
+    "cost": 3000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 3,
+    "shields": 10,
+    "max_energy": 350,
+    "max_health": 850,
+    "cpu": 900,
+    "radar": 2000,
+    "max_speed": 100,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 5,
+        "value": 5
+      }
+    ],
+    "features": [],
+    "class_number": 28,
+    "size": 1300,
+    "cost": 50000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 35,
+    "shields": 15,
+    "max_energy": 550,
+    "max_health": 2000,
+    "cpu": 800,
+    "radar": 2000,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 8,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 29,
+    "size": 2500,
+    "cost": 100000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 50,
+    "shields": 30,
+    "max_energy": 600,
+    "max_health": 3000,
+    "cpu": 800,
+    "radar": 2200,
+    "max_speed": 100,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 8,
+        "value": 7
+      }
+    ],
+    "features": [],
+    "class_number": 30,
+    "size": 2600,
+    "cost": 200000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 3,
+    "shields": 20,
+    "max_energy": 200,
+    "max_health": 1000,
+    "cpu": 1150,
+    "radar": 1800,
+    "max_speed": 80,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 1001,
+    "size": 650,
+    "cost": 32000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 2,
+    "armor": 1,
+    "shields": 10,
+    "max_energy": 280,
+    "max_health": 600,
+    "cpu": 450,
+    "radar": 1600,
+    "max_speed": 75,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 1002,
+    "size": 1200,
+    "cost": 9000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 4,
+    "armor": 2,
+    "shields": 21,
+    "max_energy": 450,
+    "max_health": 900,
+    "cpu": 1400,
+    "radar": 2200,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 1003,
+    "size": 700,
+    "cost": 53000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 4,
+    "shields": 25,
+    "max_energy": 320,
+    "max_health": 1500,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 73,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 1004,
+    "size": 1100,
+    "cost": 87000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 2,
+    "armor": 1,
+    "shields": 6,
+    "max_energy": 155,
+    "max_health": 550,
+    "cpu": 350,
+    "radar": 1500,
+    "max_speed": 85,
+    "restrictions": [],
+    "features": [],
+    "class_number": 1010,
+    "size": 480,
+    "cost": 5500,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 2,
+    "shields": 15,
+    "max_energy": 220,
+    "max_health": 720,
+    "cpu": 700,
+    "radar": 2300,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 1011,
+    "size": 600,
+    "cost": 16000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 5,
+    "shields": 25,
+    "max_energy": 380,
+    "max_health": 1800,
+    "cpu": 2500,
+    "radar": 2100,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 1012,
+    "size": 1300,
+    "cost": 114000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 3,
+    "shields": 20,
+    "max_energy": 200,
+    "max_health": 1000,
+    "cpu": 1150,
+    "radar": 1800,
+    "max_speed": 80,
+    "restrictions": [],
+    "features": [],
+    "class_number": 1013,
+    "size": 650,
+    "cost": 32000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 5,
+    "device_slots": 5,
+    "armor": 16,
+    "shields": 28,
+    "max_energy": 430,
+    "max_health": 2200,
+    "cpu": 2900,
+    "radar": 2100,
+    "max_speed": 65,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 1014,
+    "size": 1500,
+    "cost": 390000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 26,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 1015,
+    "size": 720,
+    "cost": 85000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 25,
+    "max_energy": 350,
+    "max_health": 1600,
+    "cpu": 2460,
+    "radar": 2200,
+    "max_speed": 90,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 8
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 4
+      },
+      {
+        "type": 5,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 1016,
+    "size": 900,
+    "cost": 170000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 25,
+    "shields": 40,
+    "max_energy": 350,
+    "max_health": 1800,
+    "cpu": 2800,
+    "radar": 2000,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 3
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 1017,
+    "size": 1180,
+    "cost": 170000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 15,
+    "shields": 35,
+    "max_energy": 400,
+    "max_health": 2000,
+    "cpu": 3500,
+    "radar": 2000,
+    "max_speed": 80,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 9
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 4
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 12
+      }
+    ],
+    "class_number": 1018,
+    "size": 1200,
+    "cost": 280000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 14,
+    "shields": 28,
+    "max_energy": 400,
+    "max_health": 2200,
+    "cpu": 3600,
+    "radar": 2400,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 9
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 1019,
+    "size": 1400,
+    "cost": 4000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 15,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2400,
+    "radar": 2300,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      },
+      {
+        "type": 3,
+        "value_type": 0,
+        "value": 33
+      }
+    ],
+    "class_number": 1020,
+    "size": 900,
+    "cost": 195000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 20,
+    "shields": 30,
+    "max_energy": 550,
+    "max_health": 8100,
+    "cpu": 800,
+    "radar": 2330,
+    "max_speed": 40,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 11
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 3
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 1021,
+    "size": 4000,
+    "cost": 4000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 20,
+    "shields": 20,
+    "max_energy": 700,
+    "max_health": 4500,
+    "cpu": 4700,
+    "radar": 1900,
+    "max_speed": 55,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 1022,
+    "size": 2000,
+    "cost": 1480000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 6,
+    "shields": 33,
+    "max_energy": 450,
+    "max_health": 1850,
+    "cpu": 2700,
+    "radar": 2200,
+    "max_speed": 71,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 1024,
+    "size": 1300,
+    "cost": 250000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 6,
+    "shields": 33,
+    "max_energy": 500,
+    "max_health": 1850,
+    "cpu": 2850,
+    "radar": 2200,
+    "max_speed": 73,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 5
+      }
+    ],
+    "features": [],
+    "class_number": 1025,
+    "size": 1300,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 5,
+    "armor": 8,
+    "shields": 36,
+    "max_energy": 500,
+    "max_health": 1900,
+    "cpu": 2750,
+    "radar": 2300,
+    "max_speed": 71,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 6
+      }
+    ],
+    "features": [],
+    "class_number": 1026,
+    "size": 1300,
+    "cost": 250000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 5,
+    "device_slots": 5,
+    "armor": 4,
+    "shields": 3,
+    "max_energy": 550,
+    "max_health": 2200,
+    "cpu": 4900,
+    "radar": 2200,
+    "max_speed": 66,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 14,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 1027,
+    "size": 1600,
+    "cost": 3000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 3,
+    "shields": 10,
+    "max_energy": 350,
+    "max_health": 850,
+    "cpu": 900,
+    "radar": 2000,
+    "max_speed": 100,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 5,
+        "value": 5
+      }
+    ],
+    "features": [],
+    "class_number": 1028,
+    "size": 1300,
+    "cost": 50000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 35,
+    "shields": 15,
+    "max_energy": 550,
+    "max_health": 2000,
+    "cpu": 800,
+    "radar": 2000,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 8,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 1029,
+    "size": 2500,
+    "cost": 100000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 50,
+    "shields": 30,
+    "max_energy": 600,
+    "max_health": 3000,
+    "cpu": 800,
+    "radar": 2200,
+    "max_speed": 100,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 8,
+        "value": 7
+      }
+    ],
+    "features": [],
+    "class_number": 1030,
+    "size": 2600,
+    "cost": 200000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 4,
+    "shields": 27,
+    "max_energy": 200,
+    "max_health": 870,
+    "cpu": 1150,
+    "radar": 1800,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 2001,
+    "size": 700,
+    "cost": 32000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 2,
+    "armor": 1,
+    "shields": 15,
+    "max_energy": 200,
+    "max_health": 550,
+    "cpu": 450,
+    "radar": 1600,
+    "max_speed": 78,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 2002,
+    "size": 1400,
+    "cost": 9000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 4,
+    "armor": 2,
+    "shields": 18,
+    "max_energy": 350,
+    "max_health": 850,
+    "cpu": 1400,
+    "radar": 2200,
+    "max_speed": 80,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 2003,
+    "size": 830,
+    "cost": 54000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 25,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 75,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 2004,
+    "size": 1100,
+    "cost": 85000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 2,
+    "armor": 1,
+    "shields": 12,
+    "max_energy": 160,
+    "max_health": 500,
+    "cpu": 350,
+    "radar": 1500,
+    "max_speed": 88,
+    "restrictions": [],
+    "features": [],
+    "class_number": 2010,
+    "size": 500,
+    "cost": 5000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 2,
+    "shields": 18,
+    "max_energy": 230,
+    "max_health": 670,
+    "cpu": 700,
+    "radar": 2000,
+    "max_speed": 92,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 2011,
+    "size": 670,
+    "cost": 15000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 6,
+    "shields": 32,
+    "max_energy": 410,
+    "max_health": 1550,
+    "cpu": 2500,
+    "radar": 2100,
+    "max_speed": 72,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 2012,
+    "size": 1250,
+    "cost": 157000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 4,
+    "shields": 27,
+    "max_energy": 200,
+    "max_health": 850,
+    "cpu": 1150,
+    "radar": 1800,
+    "max_speed": 80,
+    "restrictions": [],
+    "features": [],
+    "class_number": 2013,
+    "size": 700,
+    "cost": 32000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 5,
+    "armor": 8,
+    "shields": 32,
+    "max_energy": 410,
+    "max_health": 1750,
+    "cpu": 3100,
+    "radar": 2100,
+    "max_speed": 65,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 2014,
+    "size": 1400,
+    "cost": 380000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 26,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      }
+    ],
+    "class_number": 2015,
+    "size": 720,
+    "cost": 85000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 25,
+    "max_energy": 350,
+    "max_health": 1600,
+    "cpu": 2460,
+    "radar": 2200,
+    "max_speed": 90,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 8
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 4
+      },
+      {
+        "type": 5,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 2016,
+    "size": 900,
+    "cost": 170000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 25,
+    "shields": 40,
+    "max_energy": 350,
+    "max_health": 1800,
+    "cpu": 2800,
+    "radar": 2000,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 3
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 2017,
+    "size": 1180,
+    "cost": 170000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 15,
+    "shields": 35,
+    "max_energy": 400,
+    "max_health": 2000,
+    "cpu": 3500,
+    "radar": 2300,
+    "max_speed": 80,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 9
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 4
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 12
+      }
+    ],
+    "class_number": 2018,
+    "size": 1200,
+    "cost": 280000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 14,
+    "shields": 28,
+    "max_energy": 400,
+    "max_health": 2200,
+    "cpu": 3600,
+    "radar": 2400,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 9
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 2019,
+    "size": 1400,
+    "cost": 4000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 15,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2400,
+    "radar": 2300,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      },
+      {
+        "type": 3,
+        "value_type": 0,
+        "value": 33
+      }
+    ],
+    "class_number": 2020,
+    "size": 900,
+    "cost": 195000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 20,
+    "shields": 30,
+    "max_energy": 550,
+    "max_health": 8000,
+    "cpu": 800,
+    "radar": 2330,
+    "max_speed": 41,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 11
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 3
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 2021,
+    "size": 4000,
+    "cost": 8000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 20,
+    "shields": 20,
+    "max_energy": 700,
+    "max_health": 4500,
+    "cpu": 4700,
+    "radar": 1900,
+    "max_speed": 55,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 2022,
+    "size": 2000,
+    "cost": 1480000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 33,
+    "max_energy": 450,
+    "max_health": 1550,
+    "cpu": 2750,
+    "radar": 2200,
+    "max_speed": 73,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 2024,
+    "size": 1300,
+    "cost": 250000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 33,
+    "max_energy": 500,
+    "max_health": 1550,
+    "cpu": 2900,
+    "radar": 2200,
+    "max_speed": 75,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 5
+      }
+    ],
+    "features": [],
+    "class_number": 2025,
+    "size": 1300,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 5,
+    "armor": 10,
+    "shields": 36,
+    "max_energy": 500,
+    "max_health": 1600,
+    "cpu": 2800,
+    "radar": 2300,
+    "max_speed": 73,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 6
+      }
+    ],
+    "features": [],
+    "class_number": 2026,
+    "size": 1300,
+    "cost": 350000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 5,
+    "device_slots": 5,
+    "armor": 3,
+    "shields": 5,
+    "max_energy": 520,
+    "max_health": 1700,
+    "cpu": 5100,
+    "radar": 2200,
+    "max_speed": 72,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 2027,
+    "size": 1500,
+    "cost": 3000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 3,
+    "shields": 10,
+    "max_energy": 350,
+    "max_health": 850,
+    "cpu": 900,
+    "radar": 2000,
+    "max_speed": 100,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 5,
+        "value": 5
+      }
+    ],
+    "features": [],
+    "class_number": 2028,
+    "size": 1300,
+    "cost": 50000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 35,
+    "shields": 15,
+    "max_energy": 550,
+    "max_health": 2000,
+    "cpu": 800,
+    "radar": 2000,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 8,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 2029,
+    "size": 2500,
+    "cost": 100000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 50,
+    "shields": 30,
+    "max_energy": 600,
+    "max_health": 3000,
+    "cpu": 800,
+    "radar": 2200,
+    "max_speed": 100,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 8,
+        "value": 7
+      }
+    ],
+    "features": [],
+    "class_number": 2030,
+    "size": 2600,
+    "cost": 200000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 15,
+    "shields": 35,
+    "max_energy": 600,
+    "max_health": 2300,
+    "cpu": 3750,
+    "radar": 2300,
+    "max_speed": 88,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value_type": 6,
+        "value": 1
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 12
+      }
+    ],
+    "class_number": 2031,
+    "size": 2000,
+    "cost": 5000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 5,
+    "shields": 20,
+    "max_energy": 300,
+    "max_health": 850,
+    "cpu": 1150,
+    "radar": 1800,
+    "max_speed": 75,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 3001,
+    "size": 650,
+    "cost": 29000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 2,
+    "armor": 2,
+    "shields": 10,
+    "max_energy": 280,
+    "max_health": 580,
+    "cpu": 450,
+    "radar": 1600,
+    "max_speed": 72,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 3002,
+    "size": 1450,
+    "cost": 10500,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 4,
+    "armor": 3,
+    "shields": 20,
+    "max_energy": 410,
+    "max_health": 850,
+    "cpu": 1400,
+    "radar": 2200,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 3003,
+    "size": 850,
+    "cost": 54000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 6,
+    "shields": 25,
+    "max_energy": 350,
+    "max_health": 1300,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 65,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 3004,
+    "size": 1100,
+    "cost": 83000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 2,
+    "armor": 2,
+    "shields": 10,
+    "max_energy": 170,
+    "max_health": 450,
+    "cpu": 350,
+    "radar": 1500,
+    "max_speed": 83,
+    "restrictions": [],
+    "features": [],
+    "class_number": 3010,
+    "size": 450,
+    "cost": 5400,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 3,
+    "shields": 15,
+    "max_energy": 210,
+    "max_health": 600,
+    "cpu": 700,
+    "radar": 2000,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 3011,
+    "size": 600,
+    "cost": 15000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 7,
+    "shields": 31,
+    "max_energy": 420,
+    "max_health": 1550,
+    "cpu": 2500,
+    "radar": 2100,
+    "max_speed": 60,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 3
+      }
+    ],
+    "features": [],
+    "class_number": 3012,
+    "size": 1300,
+    "cost": 173000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 5,
+    "shields": 20,
+    "max_energy": 300,
+    "max_health": 800,
+    "cpu": 1150,
+    "radar": 1800,
+    "max_speed": 80,
+    "restrictions": [],
+    "features": [],
+    "class_number": 3013,
+    "size": 650,
+    "cost": 29000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 5,
+    "armor": 8,
+    "shields": 35,
+    "max_energy": 480,
+    "max_health": 1700,
+    "cpu": 3000,
+    "radar": 2100,
+    "max_speed": 60,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 3014,
+    "size": 1450,
+    "cost": 392000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 26,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      }
+    ],
+    "class_number": 3015,
+    "size": 720,
+    "cost": 85000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 25,
+    "max_energy": 350,
+    "max_health": 1600,
+    "cpu": 2460,
+    "radar": 2200,
+    "max_speed": 90,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 8
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 4
+      },
+      {
+        "type": 5,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 3016,
+    "size": 900,
+    "cost": 170000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 25,
+    "shields": 40,
+    "max_energy": 350,
+    "max_health": 1800,
+    "cpu": 2800,
+    "radar": 2000,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 3
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 3017,
+    "size": 1180,
+    "cost": 170000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 15,
+    "shields": 35,
+    "max_energy": 400,
+    "max_health": 2000,
+    "cpu": 3500,
+    "radar": 2300,
+    "max_speed": 80,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 9
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 4
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 12
+      }
+    ],
+    "class_number": 3018,
+    "size": 1200,
+    "cost": 280000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 14,
+    "shields": 28,
+    "max_energy": 400,
+    "max_health": 2200,
+    "cpu": 3600,
+    "radar": 2400,
+    "max_speed": 85,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 9
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 2,
+        "value_type": 0,
+        "value": 25
+      }
+    ],
+    "class_number": 3019,
+    "size": 1400,
+    "cost": 4000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 15,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2400,
+    "radar": 2300,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      },
+      {
+        "type": 3,
+        "value_type": 0,
+        "value": 33
+      }
+    ],
+    "class_number": 3020,
+    "size": 900,
+    "cost": 195000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 20,
+    "shields": 31,
+    "max_energy": 550,
+    "max_health": 8000,
+    "cpu": 800,
+    "radar": 2340,
+    "max_speed": 40,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 11
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 3
+      },
+      {
+        "type": 6,
+        "value_type": 0,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 3021,
+    "size": 4000,
+    "cost": 8000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 20,
+    "shields": 20,
+    "max_energy": 700,
+    "max_health": 4500,
+    "cpu": 4700,
+    "radar": 1900,
+    "max_speed": 55,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 3022,
+    "size": 2000,
+    "cost": 1480000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 38,
+    "max_energy": 500,
+    "max_health": 1550,
+    "cpu": 2700,
+    "radar": 2200,
+    "max_speed": 68,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 3024,
+    "size": 1300,
+    "cost": 150000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 38,
+    "max_energy": 550,
+    "max_health": 1550,
+    "cpu": 2850,
+    "radar": 2200,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 5
+      }
+    ],
+    "features": [],
+    "class_number": 3025,
+    "size": 1300,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 5,
+    "armor": 10,
+    "shields": 41,
+    "max_energy": 550,
+    "max_health": 1600,
+    "cpu": 2750,
+    "radar": 2300,
+    "max_speed": 68,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 6
+      }
+    ],
+    "features": [],
+    "class_number": 3026,
+    "size": 1300,
+    "cost": 350000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 5,
+    "device_slots": 5,
+    "armor": 3,
+    "shields": 10,
+    "max_energy": 500,
+    "max_health": 1800,
+    "cpu": 5000,
+    "radar": 2200,
+    "max_speed": 60,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 3027,
+    "size": 1550,
+    "cost": 3000000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 3,
+    "shields": 10,
+    "max_energy": 350,
+    "max_health": 850,
+    "cpu": 900,
+    "radar": 2000,
+    "max_speed": 100,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 4
+      },
+      {
+        "type": 2,
+        "value_type": 5,
+        "value": 5
+      }
+    ],
+    "features": [],
+    "class_number": 3028,
+    "size": 1300,
+    "cost": 50000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 35,
+    "shields": 15,
+    "max_energy": 550,
+    "max_health": 2000,
+    "cpu": 800,
+    "radar": 2000,
+    "max_speed": 95,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 8,
+        "value": 4
+      }
+    ],
+    "features": [],
+    "class_number": 3029,
+    "size": 2500,
+    "cost": 100000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 50,
+    "shields": 30,
+    "max_energy": 600,
+    "max_health": 3000,
+    "cpu": 800,
+    "radar": 2200,
+    "max_speed": 100,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 8,
+        "value": 7
+      }
+    ],
+    "features": [],
+    "class_number": 3030,
+    "size": 2600,
+    "cost": 200000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 1,
+    "armor": 3,
+    "shields": 7,
+    "max_energy": 150,
+    "max_health": 550,
+    "cpu": 260,
+    "radar": 1000,
+    "max_speed": 68,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 4001,
+    "size": 900,
+    "cost": 32000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 1,
+    "armor": 1,
+    "shields": 4,
+    "max_energy": 120,
+    "max_health": 550,
+    "cpu": 170,
+    "radar": 1000,
+    "max_speed": 50,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 4002,
+    "size": 1500,
+    "cost": 22000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 4,
+    "shields": 8,
+    "max_energy": 200,
+    "max_health": 1000,
+    "cpu": 1200,
+    "radar": 1100,
+    "max_speed": 55,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 4003,
+    "size": 1400,
+    "cost": 65000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 1,
+    "armor": 1,
+    "shields": 2,
+    "max_energy": 100,
+    "max_health": 350,
+    "cpu": 130,
+    "radar": 1200,
+    "max_speed": 75,
+    "restrictions": [],
+    "features": [],
+    "class_number": 4004,
+    "size": 700,
+    "cost": 15000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 1,
+    "armor": 3,
+    "shields": 7,
+    "max_energy": 150,
+    "max_health": 500,
+    "cpu": 260,
+    "radar": 1000,
+    "max_speed": 70,
+    "restrictions": [],
+    "features": [],
+    "class_number": 4013,
+    "size": 800,
+    "cost": 32000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 33,
+    "max_energy": 450,
+    "max_health": 1650,
+    "cpu": 2700,
+    "radar": 2200,
+    "max_speed": 68,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 5
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 4
+      },
+      {
+        "type": 5,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 4024,
+    "size": 1300,
+    "cost": 250000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 8,
+    "shields": 33,
+    "max_energy": 500,
+    "max_health": 1650,
+    "cpu": 2850,
+    "radar": 2200,
+    "max_speed": 70,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 5
+      },
+      {
+        "type": 5,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 4025,
+    "size": 1300,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 5,
+    "armor": 10,
+    "shields": 36,
+    "max_energy": 500,
+    "max_health": 1700,
+    "cpu": 2750,
+    "radar": 2300,
+    "max_speed": 68,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 7
+      },
+      {
+        "type": 2,
+        "value_type": 19,
+        "value": 6
+      },
+      {
+        "type": 2,
+        "value_type": 16,
+        "value": 6
+      },
+      {
+        "type": 5,
+        "value_type": 18,
+        "value": 1
+      }
+    ],
+    "features": [],
+    "class_number": 4026,
+    "size": 1300,
+    "cost": 350000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 4,
+    "shields": 10,
+    "max_energy": 300,
+    "max_health": 1000,
+    "cpu": 500,
+    "radar": 1500,
+    "max_speed": 130,
+    "restrictions": [],
+    "features": [],
+    "class_number": 5001,
+    "size": 1400,
+    "cost": 50000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 5,
+    "armor": 5,
+    "shields": 20,
+    "max_energy": 350,
+    "max_health": 1000,
+    "cpu": 1800,
+    "radar": 2000,
+    "max_speed": 150,
+    "restrictions": [],
+    "features": [],
+    "class_number": 5002,
+    "size": 800,
+    "cost": 100000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 5,
+    "armor": 8,
+    "shields": 30,
+    "max_energy": 350,
+    "max_health": 1300,
+    "cpu": 2800,
+    "radar": 2200,
+    "max_speed": 120,
+    "restrictions": [],
+    "features": [],
+    "class_number": 5012,
+    "size": 1200,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 5,
+    "armor": 5,
+    "shields": 12,
+    "max_energy": 350,
+    "max_health": 800,
+    "cpu": 1800,
+    "radar": 2000,
+    "max_speed": 30,
+    "restrictions": [],
+    "features": [],
+    "class_number": 5013,
+    "size": 800,
+    "cost": 100000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 20,
+    "max_energy": 350,
+    "max_health": 1200,
+    "cpu": 1000,
+    "radar": 1700,
+    "max_speed": 140,
+    "restrictions": [],
+    "features": [],
+    "class_number": 5101,
+    "size": 1400,
+    "cost": 80000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 5,
+    "armor": 6,
+    "shields": 23,
+    "max_energy": 400,
+    "max_health": 1200,
+    "cpu": 2000,
+    "radar": 2000,
+    "max_speed": 160,
+    "restrictions": [],
+    "features": [],
+    "class_number": 5102,
+    "size": 1600,
+    "cost": 140000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 3,
+    "armor": 10,
+    "shields": 45,
+    "max_energy": 550,
+    "max_health": 1400,
+    "cpu": 100,
+    "radar": 2400,
+    "max_speed": 140,
+    "restrictions": [],
+    "features": [],
+    "class_number": 5112,
+    "size": 2400,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 5,
+    "device_slots": 5,
+    "armor": 120,
+    "shields": 95,
+    "max_energy": 10000,
+    "max_health": 32000,
+    "cpu": 20000,
+    "radar": 3000,
+    "max_speed": 250,
+    "restrictions": [],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 85
+      },
+      {
+        "type": 3,
+        "value_type": 0,
+        "value": 95
+      }
+    ],
+    "class_number": 5999,
+    "size": 2000,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 20,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2400,
+    "radar": 2000,
+    "max_speed": 88,
+    "restrictions": [],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      },
+      {
+        "type": 3,
+        "value_type": 0,
+        "value": 50
+      }
+    ],
+    "class_number": 6000,
+    "size": 900,
+    "cost": 195000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 1,
+    "device_slots": 3,
+    "armor": 2,
+    "shields": 8,
+    "max_energy": 200,
+    "max_health": 450,
+    "cpu": 570,
+    "radar": 1300,
+    "max_speed": 80,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6001,
+    "size": 550,
+    "cost": 20000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 3,
+    "shields": 10,
+    "max_energy": 210,
+    "max_health": 750,
+    "cpu": 1000,
+    "radar": 1400,
+    "max_speed": 70,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6002,
+    "size": 700,
+    "cost": 42000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 5,
+    "shields": 11,
+    "max_energy": 300,
+    "max_health": 1300,
+    "cpu": 2000,
+    "radar": 1500,
+    "max_speed": 65,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6003,
+    "size": 1100,
+    "cost": 80000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 5,
+    "shields": 15,
+    "max_energy": 300,
+    "max_health": 1500,
+    "cpu": 2600,
+    "radar": 1600,
+    "max_speed": 60,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6012,
+    "size": 1300,
+    "cost": 110000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 3,
+    "shields": 10,
+    "max_energy": 210,
+    "max_health": 750,
+    "cpu": 1000,
+    "radar": 1400,
+    "max_speed": 15,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6013,
+    "size": 700,
+    "cost": 42000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 3,
+    "armor": 5,
+    "shields": 15,
+    "max_energy": 300,
+    "max_health": 1400,
+    "cpu": 2400,
+    "radar": 2300,
+    "max_speed": 95,
+    "restrictions": [],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 15
+      },
+      {
+        "type": 3,
+        "value_type": 0,
+        "value": 50
+      }
+    ],
+    "class_number": 6020,
+    "size": 700,
+    "cost": 195000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 4,
+    "device_slots": 3,
+    "armor": 20,
+    "shields": 20,
+    "max_energy": 700,
+    "max_health": 4500,
+    "cpu": 4700,
+    "radar": 1900,
+    "max_speed": 55,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 2
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 2
+      }
+    ],
+    "features": [],
+    "class_number": 6022,
+    "size": 2000,
+    "cost": 1800000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 2,
+    "armor": 7,
+    "shields": 20,
+    "max_energy": 300,
+    "max_health": 900,
+    "cpu": 1300,
+    "radar": 1400,
+    "max_speed": 80,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6102,
+    "size": 700,
+    "cost": 10000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 7,
+    "shields": 21,
+    "max_energy": 400,
+    "max_health": 1500,
+    "cpu": 2200,
+    "radar": 1700,
+    "max_speed": 75,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6103,
+    "size": 1100,
+    "cost": 80000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 10,
+    "shields": 25,
+    "max_energy": 400,
+    "max_health": 1600,
+    "cpu": 2800,
+    "radar": 1800,
+    "max_speed": 70,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6112,
+    "size": 1300,
+    "cost": 300000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 3,
+    "device_slots": 4,
+    "armor": 12,
+    "shields": 30,
+    "max_energy": 400,
+    "max_health": 1800,
+    "cpu": 2800,
+    "radar": 2000,
+    "max_speed": 70,
+    "restrictions": [],
+    "features": [],
+    "class_number": 6203,
+    "size": 1300,
+    "cost": 120000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 5,
+    "device_slots": 5,
+    "armor": 20,
+    "shields": 85,
+    "max_energy": 500,
+    "max_health": 32000,
+    "cpu": 5000,
+    "radar": 2600,
+    "max_speed": 70,
+    "restrictions": [],
+    "features": [
+      {
+        "type": 3,
+        "value_type": 0,
+        "value": 40
+      },
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 10
+      }
+    ],
+    "class_number": 7001,
+    "size": 2100,
+    "cost": 1540000,
+    "type": 5
+  },
+  {
+    "weapon_slots": 2,
+    "device_slots": 4,
+    "armor": 9,
+    "shields": 33,
+    "max_energy": 400,
+    "max_health": 1800,
+    "cpu": 2500,
+    "radar": 2333,
+    "max_speed": 99,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 18,
+        "value": 10
+      },
+      {
+        "type": 2,
+        "value_type": 20,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 21,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 22,
+        "value": 3
+      },
+      {
+        "type": 2,
+        "value_type": 23,
+        "value": 3
+      },
+      {
+        "type": 5,
+        "value_type": 18,
+        "value": 2
+      }
+    ],
+    "features": [
+      {
+        "type": 1,
+        "value_type": 0,
+        "value": 32
+      }
+    ],
+    "class_number": 8001,
+    "size": 1325,
+    "cost": 4500000,
+    "type": 5
+  }
+]

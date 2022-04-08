@@ -1,0 +1,1160 @@
+﻿[
+  {
+    "autoShots": 3,
+    "radius": 350,
+    "reload_time": 4500,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 20,
+    "max_damage": 28,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 2
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 400
+      }
+    ],
+    "class_number": 4,
+    "size": 35,
+    "cost": 8800,
+    "CN_ammo": 5
+  },
+  {
+    "autoShots": 3,
+    "radius": 800,
+    "reload_time": 4000,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 50,
+    "max_damage": 70,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 3,
+        "value": 4
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 830
+      }
+    ],
+    "class_number": 12,
+    "size": 50,
+    "cost": 21000,
+    "CN_ammo": 13
+  },
+  {
+    "autoShots": 1,
+    "radius": 400,
+    "reload_time": 2700,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 45,
+    "max_damage": 65,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 2
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 460
+      }
+    ],
+    "class_number": 2,
+    "size": 40,
+    "cost": 11000,
+    "CN_ammo": 3
+  },
+  {
+    "autoShots": 1,
+    "radius": 220,
+    "reload_time": 2100,
+    "energy_cost": 1,
+    "needAmmo": false,
+    "min_damage": 12,
+    "max_damage": 24,
+    "type": 4,
+    "effect": 7,
+    "restrictions": [
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 180
+      }
+    ],
+    "class_number": 1,
+    "size": 30,
+    "cost": 2200,
+    "CN_ammo": 15
+  },
+  {
+    "autoShots": 5,
+    "radius": 300,
+    "reload_time": 3000,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 8,
+    "max_damage": 12,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 1
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 340
+      }
+    ],
+    "class_number": 6,
+    "size": 25,
+    "cost": 5000,
+    "CN_ammo": 7
+  },
+  {
+    "autoShots": 1,
+    "radius": 900,
+    "reload_time": 4000,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 150,
+    "max_damage": 220,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 3,
+        "value": 5
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 950
+      }
+    ],
+    "class_number": 8,
+    "size": 65,
+    "cost": 24000,
+    "CN_ammo": 9
+  },
+  {
+    "autoShots": 1,
+    "radius": 1000,
+    "reload_time": 4000,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 150,
+    "max_damage": 250,
+    "type": 4,
+    "effect": 9,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 3,
+        "value": 6
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1250
+      }
+    ],
+    "class_number": 10,
+    "size": 70,
+    "cost": 90000,
+    "CN_ammo": 11
+  },
+  {
+    "autoShots": 2,
+    "radius": 330,
+    "reload_time": 1800,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 10,
+    "max_damage": 22,
+    "type": 4,
+    "effect": 4,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 3
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 480
+      }
+    ],
+    "class_number": 27,
+    "size": 30,
+    "cost": 12000,
+    "CN_ammo": 28
+  },
+  {
+    "autoShots": 2,
+    "radius": 900,
+    "reload_time": 4500,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 65,
+    "max_damage": 100,
+    "type": 4,
+    "effect": 4,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 3,
+        "value": 5
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1000
+      }
+    ],
+    "class_number": 29,
+    "size": 50,
+    "cost": 23000,
+    "CN_ammo": 30
+  },
+  {
+    "autoShots": 2,
+    "radius": 290,
+    "reload_time": 2400,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 11,
+    "max_damage": 21,
+    "type": 4,
+    "effect": 5,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 2
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 360
+      }
+    ],
+    "class_number": 31,
+    "size": 40,
+    "cost": 6400,
+    "CN_ammo": 32
+  },
+  {
+    "autoShots": 2,
+    "radius": 800,
+    "reload_time": 4200,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 50,
+    "max_damage": 90,
+    "type": 4,
+    "effect": 5,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 3,
+        "value": 4
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 800
+      }
+    ],
+    "class_number": 33,
+    "size": 60,
+    "cost": 19500,
+    "CN_ammo": 34
+  },
+  {
+    "autoShots": 1,
+    "radius": 300,
+    "reload_time": 2000,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 22,
+    "max_damage": 34,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 1
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 320
+      }
+    ],
+    "class_number": 18,
+    "size": 30,
+    "cost": 4500,
+    "CN_ammo": 19
+  },
+  {
+    "autoShots": 1,
+    "radius": 900,
+    "reload_time": 4000,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 100,
+    "max_damage": 150,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 3,
+        "value": 3
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 850
+      }
+    ],
+    "class_number": 20,
+    "size": 80,
+    "cost": 20000,
+    "CN_ammo": 21
+  },
+  {
+    "autoShots": 2,
+    "radius": 230,
+    "reload_time": 2300,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 10,
+    "max_damage": 18,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 1
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 310
+      }
+    ],
+    "class_number": 35,
+    "size": 30,
+    "cost": 4000,
+    "CN_ammo": 36
+  },
+  {
+    "autoShots": 1,
+    "radius": 450,
+    "reload_time": 2200,
+    "energy_cost": 1,
+    "needAmmo": true,
+    "min_damage": 60,
+    "max_damage": 80,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 3
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 540
+      }
+    ],
+    "class_number": 16,
+    "size": 50,
+    "cost": 12000,
+    "CN_ammo": 17
+  },
+  {
+    "autoShots": 2,
+    "radius": 150,
+    "reload_time": 3000,
+    "energy_cost": 1,
+    "needAmmo": false,
+    "min_damage": 8,
+    "max_damage": 16,
+    "type": 4,
+    "effect": 7,
+    "restrictions": [
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 200
+      }
+    ],
+    "class_number": 37,
+    "size": 20,
+    "cost": 2000,
+    "CN_ammo": 38
+  },
+  {
+    "autoShots": 1,
+    "radius": 270,
+    "reload_time": 2200,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 28,
+    "max_damage": 40,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 1
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 340
+      }
+    ],
+    "class_number": 39,
+    "size": 40,
+    "cost": 6000,
+    "CN_ammo": 40
+  },
+  {
+    "autoShots": 1,
+    "radius": 1100,
+    "reload_time": 4000,
+    "energy_cost": 0,
+    "needAmmo": true,
+    "min_damage": 125,
+    "max_damage": 195,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 3,
+        "value": 4
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1000
+      }
+    ],
+    "class_number": 22,
+    "size": 70,
+    "cost": 27000,
+    "CN_ammo": 23
+  },
+  {
+    "autoShots": 2,
+    "radius": 550,
+    "reload_time": 4300,
+    "energy_cost": 2,
+    "needAmmo": true,
+    "min_damage": 40,
+    "max_damage": 70,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 3
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 600
+      }
+    ],
+    "class_number": 25,
+    "size": 100,
+    "cost": 13500,
+    "CN_ammo": 26
+  },
+  {
+    "autoShots": 1,
+    "radius": 400,
+    "reload_time": 3000,
+    "energy_cost": 1,
+    "needAmmo": true,
+    "min_damage": 40,
+    "max_damage": 60,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 2
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 400
+      }
+    ],
+    "class_number": 24,
+    "size": 50,
+    "cost": 7300,
+    "CN_ammo": 26
+  },
+  {
+    "autoShots": 1,
+    "radius": 450,
+    "reload_time": 2900,
+    "energy_cost": 3,
+    "needAmmo": false,
+    "min_damage": 60,
+    "max_damage": 80,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 3
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 600
+      }
+    ],
+    "class_number": 43,
+    "size": 55,
+    "cost": 16000,
+    "CN_ammo": 44
+  },
+  {
+    "autoShots": 1,
+    "radius": 400,
+    "reload_time": 3000,
+    "energy_cost": 3,
+    "needAmmo": false,
+    "min_damage": 42,
+    "max_damage": 78,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 2
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 500
+      }
+    ],
+    "class_number": 41,
+    "size": 45,
+    "cost": 11000,
+    "CN_ammo": 42
+  },
+  {
+    "autoShots": 1,
+    "radius": 900,
+    "reload_time": 5000,
+    "energy_cost": 1,
+    "needAmmo": true,
+    "min_damage": 150,
+    "max_damage": 250,
+    "type": 4,
+    "effect": 6,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 3,
+        "value": 5
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1050
+      }
+    ],
+    "class_number": 45,
+    "size": 55,
+    "cost": 25000,
+    "CN_ammo": 46
+  },
+  {
+    "autoShots": 1,
+    "radius": 220,
+    "reload_time": 2000,
+    "energy_cost": 1,
+    "needAmmo": false,
+    "min_damage": 10,
+    "max_damage": 22,
+    "type": 4,
+    "effect": 7,
+    "restrictions": [
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 200
+      }
+    ],
+    "class_number": 61,
+    "size": 40,
+    "cost": 2200,
+    "CN_ammo": 63
+  },
+  {
+    "autoShots": 1,
+    "radius": 250,
+    "reload_time": 4000,
+    "energy_cost": 1,
+    "needAmmo": false,
+    "min_damage": 28,
+    "max_damage": 36,
+    "type": 4,
+    "effect": 7,
+    "restrictions": [
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 200
+      }
+    ],
+    "class_number": 62,
+    "size": 40,
+    "cost": 1800,
+    "CN_ammo": 64
+  },
+  {
+    "autoShots": 1,
+    "radius": 200,
+    "reload_time": 3500,
+    "energy_cost": 1,
+    "needAmmo": true,
+    "min_damage": 15,
+    "max_damage": 25,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 150
+      }
+    ],
+    "class_number": 47,
+    "size": 120,
+    "cost": 1800,
+    "CN_ammo": 83
+  },
+  {
+    "autoShots": 1,
+    "radius": 600,
+    "reload_time": 5500,
+    "energy_cost": 1,
+    "needAmmo": true,
+    "min_damage": 30,
+    "max_damage": 70,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 330
+      }
+    ],
+    "class_number": 81,
+    "size": 80,
+    "cost": 35000,
+    "CN_ammo": 82
+  },
+  {
+    "autoShots": 1,
+    "radius": 250,
+    "reload_time": 3000,
+    "energy_cost": 3,
+    "needAmmo": false,
+    "min_damage": 30,
+    "max_damage": 40,
+    "type": 4,
+    "effect": 7,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 2
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 280
+      }
+    ],
+    "class_number": 101,
+    "size": 50,
+    "cost": 25000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 300,
+    "reload_time": 2000,
+    "energy_cost": 1,
+    "needAmmo": false,
+    "min_damage": 28,
+    "max_damage": 42,
+    "type": 4,
+    "effect": 7,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 3
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 450
+      }
+    ],
+    "class_number": 109,
+    "size": 40,
+    "cost": 35000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 500,
+    "reload_time": 3000,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 110,
+    "max_damage": 130,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 4
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 750
+      }
+    ],
+    "class_number": 111,
+    "size": 55,
+    "cost": 55000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 5,
+    "radius": 350,
+    "reload_time": 2000,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 26,
+    "max_damage": 30,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 5
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1000
+      }
+    ],
+    "class_number": 110,
+    "size": 50,
+    "cost": 150000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 3,
+    "radius": 500,
+    "reload_time": 2500,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 40,
+    "max_damage": 60,
+    "type": 4,
+    "effect": 4,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 6
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1200
+      }
+    ],
+    "class_number": 126,
+    "size": 50,
+    "cost": 220000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 450,
+    "reload_time": 900,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 25,
+    "max_damage": 45,
+    "type": 4,
+    "effect": 32,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 6
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 600
+      }
+    ],
+    "class_number": 127,
+    "size": 50,
+    "cost": 70000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 500,
+    "reload_time": 3000,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 100,
+    "max_damage": 150,
+    "type": 4,
+    "effect": 33,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 7
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1200
+      }
+    ],
+    "class_number": 128,
+    "size": 50,
+    "cost": 200000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 2,
+    "radius": 950,
+    "reload_time": 2000,
+    "energy_cost": 3,
+    "needAmmo": false,
+    "min_damage": 25,
+    "max_damage": 50,
+    "type": 4,
+    "effect": 39,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 7
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1000
+      }
+    ],
+    "class_number": 158,
+    "size": 50,
+    "cost": 320000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 5,
+    "radius": 350,
+    "reload_time": 1975,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 28,
+    "max_damage": 32,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 5
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1000
+      }
+    ],
+    "class_number": 170,
+    "size": 50,
+    "cost": 250000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 500,
+    "reload_time": 3000,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 108,
+    "max_damage": 162,
+    "type": 4,
+    "effect": 33,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 7
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1200
+      }
+    ],
+    "class_number": 169,
+    "size": 50,
+    "cost": 300000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 500,
+    "reload_time": 3000,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 119,
+    "max_damage": 140,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 4
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 750
+      }
+    ],
+    "class_number": 171,
+    "size": 55,
+    "cost": 100000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 3,
+    "radius": 500,
+    "reload_time": 2500,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 43,
+    "max_damage": 65,
+    "type": 4,
+    "effect": 4,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 6
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1200
+      }
+    ],
+    "class_number": 172,
+    "size": 50,
+    "cost": 350000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 5,
+    "radius": 350,
+    "reload_time": 1851,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 26,
+    "max_damage": 30,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 1,
+        "value": 5
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1000
+      }
+    ],
+    "class_number": 174,
+    "size": 50,
+    "cost": 250000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 500,
+    "reload_time": 2777,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 100,
+    "max_damage": 150,
+    "type": 4,
+    "effect": 33,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 7
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1200
+      }
+    ],
+    "class_number": 173,
+    "size": 50,
+    "cost": 300000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 500,
+    "reload_time": 2777,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 110,
+    "max_damage": 130,
+    "type": 4,
+    "effect": 0,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 4
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 750
+      }
+    ],
+    "class_number": 175,
+    "size": 55,
+    "cost": 100000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 3,
+    "radius": 500,
+    "reload_time": 2304,
+    "energy_cost": 2,
+    "needAmmo": false,
+    "min_damage": 40,
+    "max_damage": 60,
+    "type": 4,
+    "effect": 4,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 6
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1200
+      }
+    ],
+    "class_number": 176,
+    "size": 50,
+    "cost": 350000,
+    "CN_ammo": 0
+  },
+  {
+    "autoShots": 1,
+    "radius": 700,
+    "reload_time": 4400,
+    "energy_cost": 3,
+    "needAmmo": false,
+    "min_damage": 200,
+    "max_damage": 300,
+    "type": 4,
+    "effect": 6,
+    "restrictions": [
+      {
+        "type": 2,
+        "value_type": 2,
+        "value": 7
+      },
+      {
+        "type": 4,
+        "value_type": 4,
+        "value": 1200
+      }
+    ],
+    "class_number": 193,
+    "size": 50,
+    "cost": 300000,
+    "CN_ammo": 0
+  }
+]

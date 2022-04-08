@@ -1,0 +1,162 @@
+﻿[
+  {
+    "class_number": 50,
+    "size": 0.150000006,
+    "cost": 3
+  },
+  {
+    "class_number": 49,
+    "size": 0.180000007,
+    "cost": 1
+  },
+  {
+    "class_number": 54,
+    "size": 0.100000001,
+    "cost": 10
+  },
+  {
+    "class_number": 53,
+    "size": 0.170000002,
+    "cost": 3
+  },
+  {
+    "class_number": 52,
+    "size": 0.0500000007,
+    "cost": 5
+  },
+  {
+    "class_number": 51,
+    "size": 0.100000001,
+    "cost": 2
+  },
+  {
+    "class_number": 56,
+    "size": 0.100000001,
+    "cost": 12
+  },
+  {
+    "class_number": 55,
+    "size": 0.100000001,
+    "cost": 5
+  },
+  {
+    "class_number": 102,
+    "size": 0.150000006,
+    "cost": 25
+  },
+  {
+    "class_number": 115,
+    "size": 0.300000012,
+    "cost": 1
+  },
+  {
+    "class_number": 116,
+    "size": 0.270000011,
+    "cost": 1
+  },
+  {
+    "class_number": 117,
+    "size": 0.280000001,
+    "cost": 1
+  },
+  {
+    "class_number": 118,
+    "size": 0.300000012,
+    "cost": 1
+  },
+  {
+    "class_number": 119,
+    "size": 0.330000013,
+    "cost": 1
+  },
+  {
+    "class_number": 120,
+    "size": 0.170000002,
+    "cost": 1
+  },
+  {
+    "class_number": 121,
+    "size": 0.200000003,
+    "cost": 1
+  },
+  {
+    "class_number": 131,
+    "size": 0.0299999993,
+    "cost": 5
+  },
+  {
+    "class_number": 132,
+    "size": 0.0500000007,
+    "cost": 6
+  },
+  {
+    "class_number": 136,
+    "size": 0.0500000007,
+    "cost": 3
+  },
+  {
+    "class_number": 133,
+    "size": 0.0500000007,
+    "cost": 40000
+  },
+  {
+    "class_number": 135,
+    "size": 0.0500000007,
+    "cost": 60000
+  },
+  {
+    "class_number": 134,
+    "size": 0.0500000007,
+    "cost": 60000
+  },
+  {
+    "class_number": 162,
+    "size": 0.0500000007,
+    "cost": 100000
+  },
+  {
+    "class_number": 164,
+    "size": 0.0500000007,
+    "cost": 120000
+  },
+  {
+    "class_number": 163,
+    "size": 0.0500000007,
+    "cost": 120000
+  },
+  {
+    "class_number": 165,
+    "size": 0.0500000007,
+    "cost": 140000
+  },
+  {
+    "class_number": 167,
+    "size": 0.0500000007,
+    "cost": 200000
+  },
+  {
+    "class_number": 166,
+    "size": 0.0500000007,
+    "cost": 200000
+  },
+  {
+    "class_number": 137,
+    "size": 0.0500000007,
+    "cost": 30
+  },
+  {
+    "class_number": 138,
+    "size": 0.0500000007,
+    "cost": 100
+  },
+  {
+    "class_number": 143,
+    "size": 0.200000003,
+    "cost": 38
+  },
+  {
+    "class_number": 148,
+    "size": 5,
+    "cost": 60000
+  }
+]

@@ -1,0 +1,24 @@
+class T_Planet:
+    SUN: int = 1
+    WHITE_SUN: int = 2
+    RED_SUN: int = 3
+    GREEN_SUN: int = 4
+    BLUE_SUN: int = 5
+    EARTH: int = 11
+    MARS: int = 12
+    EARTH1: int = 13
+    MARS1: int = 14
+    MARS2: int = 15
+    MOON: int = 16
+    MOON1: int = 17
+    VENUS: int = 18
+    SATURN: int = 19
+    PLUTO: int = 20
+    ICE_PLANET: int = 21
+    WATER_PLANET: int = 22
+    MOON2: int = 23
+    JUPITER: int = 24
+    JUPITER1: int = 25
+    MERCURY: int = 26
+    NEPTUNE: int = 27
+    URANUS: int = 28

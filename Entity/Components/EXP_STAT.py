@@ -1,3 +1,5 @@
+from Utils import MyInt
+
 lvl ={
     0: 0,
     1: 100,
@@ -5,23 +7,11 @@ lvl ={
     3: 30000,
 }
 
-class MyInt(int):
-
-    def _change(self):
-        raise NotImplementedError
-
-    def new(self, value):
-        raise NotImplementedError
-
-    def __iadd__(self, other):
-        self._change()
-        return self.new(self.__add__(other))
-
-    def __isub__(self, other):
-        self._change()
-        return self.new(self.__sub__(other))
-
 class Experience(MyInt):
+
+    def __new__(cls, exp, **kwargs):
+        print("i send packs")
+        return super().__new__(cls, exp, **kwargs)
 
     def __init__(self, value):
         self.level = self.get_level()
@@ -30,15 +20,13 @@ class Experience(MyInt):
         for k, v in lvl.items():
             if v > self:
                 return k - 1
-
-    def new(self, value):
-        return Experience(value)
-
-    def _change(self):
-        print(self.__class__.__name__)
 
 class Status(MyInt):
 
+    def __new__(cls, stat, **kwargs):
+        print("i send packs")
+        return super().__new__(cls, stat, **kwargs)
+
     def __init__(self, value):
         self.level = self.get_level()
 
@@ -46,12 +34,6 @@ class Status(MyInt):
         for k, v in lvl.items():
             if v > self:
                 return k - 1
-
-    def new(self, value):
-        return Status(value)
-
-    def _change(self):
-        print(self.__class__.__name__)
 
 
 """ TEST """
@@ -77,3 +59,7 @@ def test_stat():
     exp += 5
     assert exp == 2002
     assert exp.level == 2
+
+if __name__ == '__main__':
+    test_exp()
+    test_stat()

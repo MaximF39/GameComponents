@@ -1,0 +1,53 @@
+class T_Resource:
+    Minerals: int = 131
+    Organic: int = 132
+    IronOre: int = 49
+    Iron: int = 50
+    TitanOre: int = 51
+    Titan: int = 52
+    GoldOre: int = 53
+    Gold: int = 54
+    OsmiumOre: int = 55
+    Osmium: int = 56
+    XenoCrystall: int = 102
+    Catalyst: int = 136
+    microscheme: int = 143
+
+
+OMOLENIAN_ID: int = 1  # red
+IRRIITIAN_ID: int = 2  # yellow
+ANID_ID: int = 3  # green
+MEDRAMIL_ID: int = 4  # blue
+GULDUC_ID: int = 5  # brown
+
+"""
+Первая буква в название - Раса корабля
+"""
+
+_def = [
+    {T_Ship.OIntercepter: T_Ship.OIntercepterHavy},
+    {T_Ship.OTransport: T_Ship.OLRTransport},
+    {T_Ship.OFregat: T_Ship.OFregatArmored}, # Фрегат -> броник
+    {T_Ship.OIndustrial: T_Ship.OScout}, # в будущем
+    {T_Ship.OScout: T_Ship.OSience},
+    {T_Ship.OLinkor: T_Ship.OSiegeLinkor},
+    {T_Ship.OIntercepterHavy: T_Ship.OIntercepterCorsar},
+    {T_Ship.OIntercepterCorsar: T_Ship.PIntercepterCorsar},
+    {T_Ship.OFregatArmored: T_Ship.OFregatAssault}, # броник -> Штурмовик
+    {T_Ship.OFregatAssault: T_Ship.OFregatAssaultM1}, # Штурмовик -> УШ
+    {T_Ship.OCarrier: T_Ship.OBrig}, # в будущем
+    {T_Ship.OBrig: T_Ship.OShockBrig},
+    {T_Ship.OShockBrig: T_Ship.OSiegeBrig},
+    {T_Ship.OLRTransport: T_Ship.OFTransport},
+]
+
+
+{T_Ship.MFregatArmored: T_Ship.MFregatAssault} ->
+{
+T_Resource.Iron: 10000,
+T_Resource.Titan: 2000,
+T_Resource.Gold: 1000,
+T_Resource.Osmium: 4000,
+T_Resource.Minerals:1000,
+}
+
