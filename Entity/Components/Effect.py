@@ -4,14 +4,14 @@ import time
 
 class Effects(dict):
     """
-    P.ship.effects[1] = 2 # + effect(type=1, time=2) time = 2 second
-    P.ship.effects[1] = 2 # + effect(type=1, time=2) time = 2 second
+    P.Ship.effects[1] = 2 # + effect(type=1, time=2) time = 2 second
+    P.Ship.effects[1] = 2 # + effect(type=1, time=2) time = 2 second
 
     Если добавить эффекты с одинаковыми типами, то их время сложится
-    P.ship.effects[1] = 4 s
+    P.Ship.effects[1] = 4 s
 
-    P.ship.effects[1] = "const" # + effect(type=1, time=навсегда) time = навсегда
-    P.ship.effects[-1] = "const" # - effect(type=1, time=навсегда) time = навсегда
+    P.Ship.effects[1] = "const" # + effect(type=1, time=навсегда) time = навсегда
+    P.Ship.effects[-1] = "const" # - effect(type=1, time=навсегда) time = навсегда
     """
     __slots__ = ("Owner",)
 

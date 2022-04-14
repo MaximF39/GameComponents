@@ -1,4 +1,4 @@
-from Utils import MyInt
+from Utils.MyInt import MyInt
 
 
 class Health(MyInt):

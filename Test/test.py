@@ -32,21 +32,7 @@ from Inventory import _Inventory
 
 
 
-def test_hold_EntityInventory():
-    p1 = Player()
-    p2 = Player()
-    assert p1.inventory.hold.max
 
-    i1 = Item(
-        {"guid": uuid.uuid4(), 'classNumber': 10, "stack": True, "wear": 90, "inUsing": False, "satisfying": False, "size": 5})
-
-    p1.inventory += i1
-    assert p1.inventory.hold == 450
-
-    p1.inventory.send_item(p2, guid=i1['guid'], wear=40)
-
-    assert p1.inventory.hold == 250
-    assert p2.inventory.hold == 200
 
 
 def test_PlanetInventory():

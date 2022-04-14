@@ -1,4 +1,4 @@
-from Utils import MyInt
+from Utils.MyInt import MyInt
 
 lvl ={
     0: 0,
@@ -9,11 +9,12 @@ lvl ={
 
 class Experience(MyInt):
 
-    def __new__(cls, exp, **kwargs):
+    def __new__(cls, exp, *args, **kwargs):
         print("i send packs")
-        return super().__new__(cls, exp, **kwargs)
+        return super().__new__(cls, exp, *args, **kwargs)
 
-    def __init__(self, value):
+    def __init__(self, value, **kwargs):
+        super().__init__(value, **kwargs)
         self.level = self.get_level()
 
     def get_level(self):

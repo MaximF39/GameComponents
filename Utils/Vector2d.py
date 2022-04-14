@@ -137,5 +137,3 @@ class Vector2D:
         param2 = param2 - math.pi / 2
         self.x = param1 * math.cos(param2) + param3
         self.y = param1 * math.sin(param2) + param4
-
-

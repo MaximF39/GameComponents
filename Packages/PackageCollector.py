@@ -17,6 +17,9 @@ class PackageCollector(set):
             pass
         self.clear()
 
+    def update_number(self, pack, number):
+        pass
+
     def __iadd__(self, PackNumber):
         return self.add(PackNumber)
 

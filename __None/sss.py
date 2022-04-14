@@ -1,48 +1,35 @@
 import pickle
-import pickle
 
-class MyInt(int):
-    def __iadd__(self, other):
-        return self.__new__(type(self), self.__add__(other))
-
-    def __isub__(self, other):
-        return self.__new__(type(self), self.__sub__(other))
-
-class Health(MyInt):
+class a(list):
     pass
 
-
-exit()
-class T:
-    s = 0
-
+class b:
+    def __init__(self, res):
+        self.s = a(res)
 def get_class():
-    file = open('../important', 'rb')
+    file = open('class.txt', 'rb')
 
     # dump information to that file
     data = pickle.load(file)
 
     # close the file
     file.close()
-    print(data[0].s)
+    print(data[0].__dict__)
 get_class()
 
 def to_class():
+
     data = []
-
-    class T:
-        s = 0
-    e = T()
-
-    e.s = 22
+    e = b([1, 2, 3, 4])
     data.append(e)
 
-    file = open('../important', 'wb')
+    file = open('class.txt', 'wb')
 
     pickle.dump(data, file)
 
     # close the file
     file.close()
+# to_class()
 exit()
 def singleton(cls):
     instances = {}

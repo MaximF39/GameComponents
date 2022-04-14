@@ -1,4 +1,4 @@
-from python.Static.Type.Item.T_Ship import T_Ship
+from Static.Type.Item.T_Ship import T_Ship
 
 weak_system = [2, 9, 6, 8, 5, 43, 30, 46, 105, 106, 107, 108, 109, 120, 114, 115, 125, 111, 112, 113]
 medium_system = [7, 38, 1, 4]

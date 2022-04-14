@@ -46,8 +46,6 @@ class _Inventory(dict):
         elif item_['stack']:
             Whom_item = item_ - wear
             Whom.inventory += Whom_item
-        else:
-            raise NotImplementedError('передано stack=False, wear=')
 
     def __find_item_stack(self, item_) -> "Item":
         """ get self.item['CN'] == item_['CN'] """

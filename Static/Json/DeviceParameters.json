@@ -14,7 +14,8 @@
     "class_number": 65,
     "size": 45,
     "cost": 3000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -31,7 +32,8 @@
     "class_number": 74,
     "size": 35,
     "cost": 3000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -48,7 +50,8 @@
     "class_number": 75,
     "size": 40,
     "cost": 3000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -65,7 +68,8 @@
     "class_number": 76,
     "size": 55,
     "cost": 3000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -82,7 +86,8 @@
     "class_number": 88,
     "size": 35,
     "cost": 4500,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 40,
@@ -105,7 +110,8 @@
     "class_number": 89,
     "size": 65,
     "cost": 13000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 45,
@@ -128,7 +134,8 @@
     "class_number": 90,
     "size": 70,
     "cost": 12000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 30,
@@ -151,7 +158,8 @@
     "class_number": 92,
     "size": 60,
     "cost": 11000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 25,
@@ -174,7 +182,8 @@
     "class_number": 91,
     "size": 40,
     "cost": 6000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 50,
@@ -224,7 +233,8 @@
     "class_number": 93,
     "size": 50,
     "cost": 150000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -253,7 +263,8 @@
     "class_number": 103,
     "size": 30,
     "cost": 24000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 100,
@@ -276,7 +287,8 @@
     "class_number": 105,
     "size": 75,
     "cost": 30000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 100,
@@ -299,7 +311,8 @@
     "class_number": 107,
     "size": 25,
     "cost": 85000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 110,
@@ -327,7 +340,8 @@
     "class_number": 108,
     "size": 25,
     "cost": 70000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 70,
@@ -350,7 +364,8 @@
     "class_number": 106,
     "size": 60,
     "cost": 18000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -373,7 +388,8 @@
     "class_number": 104,
     "size": 20,
     "cost": 28000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -390,7 +406,8 @@
     "class_number": 114,
     "size": 35,
     "cost": 4500,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -428,7 +445,8 @@
     "class_number": 112,
     "size": 35,
     "cost": 80000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -445,7 +463,8 @@
     "class_number": 113,
     "size": 35,
     "cost": 4500,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 60,
@@ -480,7 +499,8 @@
     "class_number": 122,
     "size": 45,
     "cost": 51000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 55,
@@ -515,7 +535,8 @@
     "class_number": 123,
     "size": 50,
     "cost": 53000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 120,
@@ -550,7 +571,8 @@
     "class_number": 124,
     "size": 55,
     "cost": 53000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 5,
@@ -579,7 +601,8 @@
     "class_number": 1000,
     "size": 5,
     "cost": 900000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 55,
@@ -614,7 +637,8 @@
     "class_number": 125,
     "size": 50,
     "cost": 50000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -642,7 +666,8 @@
     "class_number": 150,
     "size": 7,
     "cost": 120000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -676,7 +701,8 @@
     "class_number": 151,
     "size": 38,
     "cost": 100000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -710,7 +736,8 @@
     "class_number": 152,
     "size": 11,
     "cost": 50000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -744,7 +771,8 @@
     "class_number": 153,
     "size": 11,
     "cost": 110000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -788,7 +816,8 @@
     "class_number": 154,
     "size": 5,
     "cost": 300000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -805,7 +834,8 @@
     "class_number": 155,
     "size": 14,
     "cost": 40000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -834,7 +864,8 @@
     "class_number": 156,
     "size": 11,
     "cost": 85000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -872,7 +903,8 @@
     "class_number": 157,
     "size": 9,
     "cost": 100000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -895,7 +927,8 @@
     "class_number": 185,
     "size": 11,
     "cost": 500000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 0,
@@ -918,7 +951,8 @@
     "class_number": 186,
     "size": 14,
     "cost": 60000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 90,
@@ -946,7 +980,8 @@
     "class_number": 187,
     "size": 39,
     "cost": 210000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 80,
@@ -974,7 +1009,8 @@
     "class_number": 188,
     "size": 64,
     "cost": 120000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 90,
@@ -1002,7 +1038,8 @@
     "class_number": 189,
     "size": 90,
     "cost": 150000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 50,
@@ -1040,7 +1077,8 @@
     "class_number": 190,
     "size": 70,
     "cost": 100000,
-    "type": 2
+    "type": 2,
+    "stack": false
   },
   {
     "energy_cost": 30,
@@ -1063,6 +1101,7 @@
     "class_number": 191,
     "size": 30,
     "cost": 90000,
-    "type": 2
+    "type": 2,
+    "stack": false
   }
 ]

@@ -17,15 +17,18 @@ def _get_path_json(text: str) -> pathlib.Path:
 
 
 def new_items():
-    guid_parse2 = {'AmmoParameters':2, "DeviceParameters":5, "DroidParameters": 6,
-              "EngineParameters":3, "ShipParameters":7, "WeaponParameters":4, "ResourseParameters":1, "GalaxyMap":999}
-    print('good')
+    guid_parse2 = {"DeviceParameters":5, "DroidParameters": 6, "ResourseParameters":1,
+              "EngineParameters":3, "ShipParameters":7, "WeaponParameters":4}
     for key, value in guid_parse2.items():
         with open(_get_path_json(key), 'r', encoding='utf-8-sig') as f:
             res = json.loads(f.read())
             for dict_ in res:
-                for k, v in dict_.copy().items():
-                    pass
+                if key == "DroidParameters" or\
+                    key == "ResourseParameters":
+                    dict_['stack'] = True
+                else:
+                    dict_['stack'] = False
+
 
 
         with open(_get_path_json(key), 'w', encoding='utf-8-sig') as f:

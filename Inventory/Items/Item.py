@@ -1,23 +1,19 @@
 import copy
 import uuid
 
+from Static.ParseJson import item_CN
+
 
 class Item(dict):
     """
     Item += Item
     """
-    __slots__ = ('guid', 'classNumber', "stack", "wear", "inUsing", "satisfying", 'size', 'const')
 
-    def __init__(self, seq=None, **kwargs):
-        if 'const' in seq:  self['const'] = seq
-        else:   self['const'] = False
-
-        for need in self.__slots__:
-            if not need in seq:
-                if need == 'const':
-                    continue
-                raise AttributeError(f"{self.__class__.__name__} hasn't attribute %s" % need)
-        super().__init__(seq, **kwargs)
+    def __init__(self, CN:int, wear:int=None, const=False):
+        super().__init__()
+        self['const'] = const
+        self.update(item_CN(CN, wear))
+        self['guid'] = self._get_guid()
 
     def __iadd__(self, item_: "Item"):
         return self.__add__(item_)
@@ -56,16 +52,16 @@ class Item(dict):
         return self
 
     def get_size(self, wear=None):
-        if self['stack']:   return self['size'] * (wear or self['wear'])
-        else:               return self['size']
+        if self['stack']:   return round(self['size'] * (wear or self['wear']))
+        else:               return round(self['size'])
 
     def get_cost(self, wear=None):
-        if self['stack']:   return self['cost'] * (wear or self['wear'])
-        else:               return self['cost']
+        if self['stack']:   return round(self['cost'] * (wear or self['wear']))
+        else:               return round(self['cost'])
 
     def copy(self, /, wear=None, const=None) -> "Item":
         item_ = copy.copy(self)
-        item_['guid'] = uuid.uuid4()
+        item_['guid'] = item_._get_guid()
         if not wear is None:    item_['wear'] = wear
         if not const is None:   item_['const'] = const
         return item_
@@ -89,3 +85,7 @@ class Item(dict):
 
     def unuse(self):
         self['inUsing'] = False
+
+    @staticmethod
+    def _get_guid():
+        return uuid.uuid4()
