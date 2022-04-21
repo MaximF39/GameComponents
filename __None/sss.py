@@ -6,6 +6,8 @@ class a(list):
 class b:
     def __init__(self, res):
         self.s = a(res)
+        print('sss')
+
 def get_class():
     file = open('class.txt', 'rb')
 
@@ -14,18 +16,16 @@ def get_class():
 
     # close the file
     file.close()
-    print(data[0].__dict__)
+    print(data.__dict__)
 get_class()
 
 def to_class():
 
-    data = []
     e = b([1, 2, 3, 4])
-    data.append(e)
 
     file = open('class.txt', 'wb')
 
-    pickle.dump(data, file)
+    pickle.dump(e, file)
 
     # close the file
     file.close()
